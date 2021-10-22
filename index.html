@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Random Password Generator</title>
+  </head>
+  <body>
+      <div class="cont">
+    Select a password length:
+    <select id="pswlength">
+      <option disabled>Weak Passwords</option>
+      <option value="6">6 characters</option>
+      <option value="8">8 characters</option>
+      <option value="10">10 characters</option>
+      <option value="12">12 characters</option>
+      <option value="14">14 characters</option>
+      <option disabled>Strong Passwords</option>
+      <option value="16">16 characters</option>
+      <option value="18">18 characters</option>
+      <option value="20">20 characters</option>
+    </select>
+    <button type="button" id="generate">Generate Password</button>
+    <div>
+      <div>
+    <div id="genpasscont">
+    </div>
+  </div>
+    </div>
+    <div class="tip">Tip: Choose a password length of at least 16 characters to create a strong password.</div>
+    </div>
+
+    <script src="/js/index.js"></script>
+  </body>
+    
+</html>

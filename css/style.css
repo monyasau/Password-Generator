@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "poppins";
+  src: url("/css/poppins.ttf") format("truetype");
+}
+@font-face {
+  font-family: "roboto";
+  src: url("/css/Roboto.ttf") format("truetype");
+}
+body {
+  background: radial-gradient(white, black) no-repeat;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 97.7vh;
+  max-height: 97.7vh;
+  font-family: roboto, poppins, consolas;
+}
+.cont {
+  border-radius: 10px;
+  padding: 20px 5px;
+  width: fit-content;
+  box-shadow: 1px 1px 20px 3px #b1a4a4 ,-1px -1px 10px 1px grey , 1px 1px 10px 1px white ,-1px -1px 5px 1px #dcafaf ;
+  background: linear-gradient(to right, #bfbfbf, #dcafaf) no-repeat;
+  /* box-shadow: 1px 1px 20px 3px #bcd3bc ,-1px -1px 10px 1px grey , 1px 1px 10px 1px white ,-1px -1px 5px 1px #bfbfbf ; */
+  /* box-shadow: 1px 1px 20px 3px grey ,1px 1px 20px 3px blue ; */
+  /* box-shadow:
+  -52px -52px 0px 0px #f65314,
+  52px -52px 0px 0px #7cbb00,
+  -52px 52px 0px 0px #00a1f1,
+  52px 52px 0px 0px #ffbb00; */
+}
+.cont-weak {
+  border-radius: 10px;
+  padding: 20px 5px;
+  border-radius: 10px;
+  width: fit-content;
+  background: linear-gradient(to right, #bfbfbf, #dcafaf) no-repeat;
+  box-shadow: 1px 1px 20px 3px #b1a4a4 ,-1px -1px 10px 1px grey , 1px 1px 10px 1px white ,-1px -1px 5px 1px #dcafaf ;
+  /* box-shadow: 1px 1px 20px 3px grey ,1px 1px 20px 3px blue ; */
+  /* box-shadow:
+  -52px -52px 0px 0px #f65314,
+  52px -52px 0px 0px #7cbb00,
+  -52px 52px 0px 0px #00a1f1,
+  52px 52px 0px 0px #ffbb00; */
+}
+.cont-strong {
+  border-radius: 10px;
+  padding: 20px 5px;
+  width: fit-content;
+  background: linear-gradient(to right, #bfbfbf, #b7dab7) no-repeat;
+  /* box-shadow: 1px 1px 20px 3px grey ; */
+  box-shadow: 1px 1px 20px 3px #acb6ac ,-1px -1px 10px 1px grey , 1px 1px 10px 1px white ,-1px -1px 5px 1px #bfbfbf ;
+  /* box-shadow:
+  -52px -52px 0px 0px #f65314,
+  52px -52px 0px 0px #7cbb00,
+  -52px 52px 0px 0px #00a1f1,
+  52px 52px 0px 0px #ffbb00; */
+}
+#genpasscont {
+  margin-top: 10px;
+  padding-left: 20px;
+  border-radius: 5px;
+  max-height: 60px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  border: 1px black solid;
+}
+#genpasscont::-webkit-scrollbar-track{
+  width: 5px;
+  background-color: #a9a9a9;
+  padding-left: 10px;
+  /* border-radius: 10px; */
+}
+#genpasscont::-webkit-scrollbar-thumb{
+  border: black solid 1px;
+  border-radius: 2px;
+}
+#genpasscont::-webkit-scrollbar {
+  width: 10px;
+  height: fit-content;
+  background-color: transparent;
+}
+#genpasscont::-webkit-scrollbar-button {
+  background-color: #616861;
+  border: 1px solid black;
+  width: 2px;
+  height: 7px;
+}
+select {
+max-width: 110px;
+background: radial-gradient( #dddddd,white) no-repeat;
+padding: 5px 2px;
+border-radius: 10px;
+}
+button {
+background: radial-gradient( #dddddd,white) no-repeat;
+border:  1px solid #6a6a6a;
+border-radius: 10px;
+padding: 7px;
+}
+.genPassword{
+  padding: 5px 5px;
+}
+.tip {
+  text-align: center;
+  font-size: 10px;
+}
