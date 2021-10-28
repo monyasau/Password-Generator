@@ -13,6 +13,7 @@ const cont = document.querySelector(".cont");
 const generate = () => {
 // setInterval(function () { scrool.scrollIntoView({behavior: 'smooth', block: 'end'}) }, 1000);
     
+
   if (select.value === "6") {
     // alert(Math.floor(Math.random() * 10));
     createSixPasswordElement();
@@ -260,5 +261,9 @@ console.log(randomLetter);
 // console.clear();
 // }, 1000);
 setInterval(() => {
-  passcont.scrollIntoView({ behavior: "smooth", block: "end"});
+  passcont.scrollIntoView({ behavior: "smooth", block: "end" });
 }, 0050);
+
+// setInterval(() => {
+//   passcont.scrollIntoView({ behavior: "smooth", block: "end"});
+// }, 0050);
